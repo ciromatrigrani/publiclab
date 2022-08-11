@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrigraniCiro.MinimalApiPoC", "MatrigraniCiro.MinimalApiPoC.csproj", "{F11C62F2-72D6-4DD7-99FE-8937ACC4E3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrigraniCiro.MinimalApiPoC.Tests", "..\MatrigraniCiro.MinimalApiPoC.Tests\MatrigraniCiro.MinimalApiPoC.Tests.csproj", "{319A2C8C-6310-4674-BAF4-E5AF914F59F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11C62F2-72D6-4DD7-99FE-8937ACC4E3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11C62F2-72D6-4DD7-99FE-8937ACC4E3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11C62F2-72D6-4DD7-99FE-8937ACC4E3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11C62F2-72D6-4DD7-99FE-8937ACC4E3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319A2C8C-6310-4674-BAF4-E5AF914F59F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319A2C8C-6310-4674-BAF4-E5AF914F59F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319A2C8C-6310-4674-BAF4-E5AF914F59F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319A2C8C-6310-4674-BAF4-E5AF914F59F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B34D7FE3-709D-48C6-B983-6DF3597C6FC9}
+	EndGlobalSection
+EndGlobal

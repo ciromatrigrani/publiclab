@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrigraniCiro.DotNetCoreRestApiPoC.FlightLegs", "MatrigraniCiro.DotNetCoreRestApiPoC.FlightLegs.csproj", "{3A9012FF-1089-4A86-9998-DA3D5718B277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrigraniCiro.DotNetCoreRestApiPoC.FlightLegs.Tests", "..\MatrigraniCiro.DotNetCoreRestApiPoC.FlightLegs.Tests\MatrigraniCiro.DotNetCoreRestApiPoC.FlightLegs.Tests.csproj", "{3FDCD518-25CA-4B7B-B948-77BE64580A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A9012FF-1089-4A86-9998-DA3D5718B277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9012FF-1089-4A86-9998-DA3D5718B277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9012FF-1089-4A86-9998-DA3D5718B277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9012FF-1089-4A86-9998-DA3D5718B277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDCD518-25CA-4B7B-B948-77BE64580A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDCD518-25CA-4B7B-B948-77BE64580A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDCD518-25CA-4B7B-B948-77BE64580A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDCD518-25CA-4B7B-B948-77BE64580A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {026DDD09-14A8-4EFF-823A-BEED19656484}
+	EndGlobalSection
+EndGlobal

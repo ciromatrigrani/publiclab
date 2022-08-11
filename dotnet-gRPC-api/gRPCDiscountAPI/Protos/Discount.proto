@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCDiscountAPI.Protos";
+
+
+service DiscountProtoService {
+	rpc GetDiscount (GetDiscountRequest) returns (DiscountOkResponse);
+
+	rpc PostDiscount (PostDiscountRequest) returns (DiscountCreatedResponse);
+
+	rpc PutGetDiscount (PutDiscountRequest) returns (DiscountNoContentResponse);
+
+	rpc DelGetDiscount (DelDiscountRequest) returns (DiscountNoContentResponse);
+}
+
+message GetDiscountRequest {
+	string productName = 1;
+}
+
+message PostDiscountRequest {
+	DiscountEntity coupon = 1;
+}
+
+message PutDiscountRequest {
+	DiscountEntity coupon = 1;
+}
+
+message DelDiscountRequest {
+	string productName = 1;
+}
+
+message DiscountCreatedResponse {
+	DiscountEntity coupon = 1;
+}
+
+message DiscountOkResponse {
+	DiscountEntity coupon = 1;
+}
+
+message DiscountNoContentResponse {
+	bool Done = 1;
+}
+
+message DiscountEntity {
+	int32 id = 1;
+	string productName = 2;
+	string description = 3;
+	int32 amount = 4;
+}

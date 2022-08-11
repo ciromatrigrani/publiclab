@@ -1,0 +1,236 @@
+country,country_code,language
+Afghanistan,af,en
+Albania,al,en
+Algeria,dz,fr
+Andorra,ad,en
+Angola,ao,en
+Anguilla,ai,en
+Antartica,aq,en
+Antigua and Barbuda,ag,en
+Argentina,ar,en
+Armenia,am,en
+Aruba,aw,en
+Australia,au,en
+Austria,at,de
+Azerbaijan,az,en
+Bahamas,bs,en
+Bahrain,bh,en
+Bangladesh,bd,en
+Barbados,bb,en
+Belarus,by,ru
+Belgium,be,en
+Belize,bz,en
+Benin,bj,fr
+Bermuda,bm,en
+Bhutan,bt,en
+Bolivia,bo,en
+Bosnia and Herzegovina,ba,en
+Botswana,bw,en
+Bouvet Island,bv,en
+Brazil,br,pt
+British Indian Ocean Territory,io,en
+Brunei Darussalam,bn,en
+Bulgaria,bg,en
+Burkina Faso,bf,fr
+Burundi,bi,en
+Cambodia,kh,en
+Cameroon,cm,en
+Canada,ca,en
+Cape Verde,cv,en
+Cayman Islands,ky,en
+Central African Republic,cf,en
+Chad,td,en
+Chile,cl,es
+China,cn,zh
+Christmas Island,cx,en
+Cocos (Keeling) Islands,cc,en
+Colombia,co,es
+Comoros,km,en
+Democratic Republic of the Congo,cg,en
+Cook Islands,ck,en
+Costa Rica,cr,en
+Cote D`Ivoire,ci,en
+Croatia,hr,en
+Curacao,xc,en
+Cyprus,cy,en
+Czech Republic,cz,en
+Denmark,dk,da
+Djibouti,dj,en
+Dominica,dm,en
+Dominican Republic,do,es
+East Timor,tl,en
+Ecuador,ec,en
+Egypt,eg,en
+El Salvador,sv,en
+Equatorial Guinea,gq,en
+Estonia,ee,en
+Ethiopia,et,en
+Faeroe Islands,fo,en
+Falkland Islands (Malvinas),fk,en
+Fiji,fj,en
+Finland,fi,en
+France,fr,fr
+French Guiana,gf,fr
+French Polynesia,pf,en
+Gabon,ga,en
+Gambia,gm,en
+Georgia,ge,en
+Germany,de,de
+Ghana,gh,en
+Gibraltar,gi,en
+Greece,gr,en
+Greenland,gl,en
+Grenada,gd,en
+Guadeloupe,gp,fr
+Guam,gu,en
+Guatemala,gt,en
+Guernsey	 C.I.,gg,en
+Guinea,gn,en
+Guinea-Bissau,gw,en
+Guyana,gy,en
+Haiti,ht,en
+Honduras,hn,en
+Hong Kong SAR,hk,en
+Hungary,hu,en
+Iceland,is,en
+India,in,en
+Indonesia,id,en
+Iraq,iq,en
+Ireland,ie,en
+Israel,il,en
+Italy,it,it
+Jamaica,jm,en
+Japan,jp,ja
+Jersey	 C.I.,je,en
+Jordan,jo,en
+Kazakhstan,kz,ru
+Kenya,ke,en
+Kiribati,ki,en
+Korea	 Republic of,kr,ko
+Kosovo,kv,en
+Kuwait,kw,en
+Kyrgyzstan,kg,en
+Lao Peoples Democratic Republic,la,en
+Latvia,lv,en
+Lebanon,lb,en
+Lesotho,ls,en
+Liechtenstein,li,de
+Lithuania,lt,en
+Luxembourg,lu,en
+Macau SAR,mo,en
+Madagascar,mg,en
+Malawi,mw,en
+Malaysia,my,en
+Maldives,mv,en
+Mali,ml,en
+Malta,mt,en
+Marshall Islands,mh,en
+Martinique,mq,fr
+Mauritania,mr,fr
+Mauritius,mu,en
+Mexico,mx,es
+Micronesia	 Fed. States of,fm,en
+Moldova	 Republic of,md,en
+Monaco,mc,en
+Mongolia,mn,en
+Montenegro,me,en
+Montserrat,ms,en
+Morocco,ma,fr
+Mozambique,mz,en
+Namibia,na,en
+Nauru,nr,en
+Nepal,np,en
+Netherland Antilles,an,en
+Netherlands,nl,nl
+New Caledonia,nc,en
+New Zealand,nz,en
+Nicaragua,ni,en
+Niger,ne,en
+Nigeria,ng,en
+Niue,nu,en
+Norfolk Island,nf,en
+Northern Mariana Islands,mp,en
+Norway,no,en
+Oman,om,en
+Pakistan,pk,en
+Palau,pw,en
+Panama,pa,es
+Papua New Guinea,pg,en
+Paraguay,py,en
+Peru,pe,es
+Philippines,ph,en
+Pitcairn,pn,en
+Poland,pl,en
+Portugal,pt,en
+Puerto Rico,pr,es
+Qatar,qa,en
+Republic of Macedonia,mk,en
+Reunion,re,fr
+Romania,ro,en
+Russian Federation,ru,ru
+Rwanda,rw,en
+Saint Kitts and Nevis,kn,en
+Saint Lucia,lc,en
+San Marino,sm,en
+Sao Tome and Principe,st,en
+Saudi Arabia,sa,en
+Senegal,sn,fr
+Serbia,rs,en
+Seychelles,sc,en
+Sierra Leone,sl,en
+Singapore,sg,en
+Slovakia,sk,en
+Slovenia,si,en
+Solomon Islands,sb,en
+South Africa,za,en
+Spain,es,es
+Spain - Canary Islands,ic,es
+Sri Lanka,lk,en
+St. Helena,sh,en
+St. Pierre and Miquelon,pm,en
+St. Vincent and the Grenadines,vc,en
+Suriname,sr,en
+Swaziland,sz,en
+Sweden,se,sv
+Switzerland,ch,en
+Taiwan Region,tw,en
+Tajikistan,tj,en
+Tanzania	 United Republic of,tz,en
+Thailand,th,en
+Togo,tg,en
+Tokelau,tk,en
+Tonga,to,en
+Trinidad and Tobago,tt,en
+Tunisia,tn,fr
+Turkey,tr,en
+Turks and Caicos Islands,tc,en
+Tuvalu,tv,en
+UAE,ae,en
+Uganda,ug,en
+Ukraine,ua,ru
+United Kingdom,uk,en
+United States,us,en
+Uruguay,uy,en
+Uzbekistan,uz,en
+Vanuatu,vu,en
+Vatican City State,va,en
+Venezuela,ve,en
+Vietnam,vn,en
+Virgin Islands (British),vg,en
+Virgin Islands	 U.S.,vi,en
+Wallis and Futuna Islands,wf,en
+Western Sahara,eh,en
+Yemen	 Republic of,ye,en
+Zaire,zr,en
+Zambia,zm,en
+Zimbabwe,zw,en
+Qatar,ar-qa,ar
+Saudi Arabia,ar-sa,ar
+Jordan,ar-jo,ar
+UAE,ar-ae,ar
+Kuwait,ar-kw,ar
+Oman,ar-om,ar
+Bahrain,ar-bh,ar
+Lebanon,ar-lb,ar
+Egypt,ar-eg,ar
+Iraq,ar-iq,ar

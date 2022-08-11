@@ -1,0 +1,96 @@
+# based on http://docutils.sourceforge.net/sandbox/py-rest-doc/utils/pylintrc
+# pylint <file>.py --rcfile=pylintrc
+# OR simply
+# pylint <file>.py
+
+[MASTER]
+# Specify a configuration file.
+# rcfile=pylintrc
+
+# disabling:
+#  C0114: missing-module-docstring
+#  C0115: missing-class-docstring
+#  C0116: missing-function-docstring
+disable=C0114, C0115, C0116
+
+init-hook="
+    from pylint_venv import inithook
+    inithook()"
+
+
+# Profiled execution.
+profile=no
+
+# Pickle collected data for later comparisons.
+persistent=yes
+
+# List of plugins (as comma separated values of python modules names) to load,
+# usually to register additional checkers.
+load-plugins=
+
+[REPORTS]
+# set the output format. Available formats are text, parseable, colorized and
+# html
+output-format=parseable
+
+# Include message's id in output
+include-ids=yes
+
+files-output=no
+
+# Tells whether to display a full report or only the messages
+reports=yes
+msg-template="{path}':'{line}':' [{msg_id}({symbol}), {obj}] {msg}"
+
+comment=no
+
+[DESIGN]
+
+# Maximum number of arguments for function / method
+max-args=12
+
+# Maximum number of locals for function / method body
+max-locals=30
+
+# Maximum number of return / yield for function / method body
+max-returns=12
+
+# Maximum number of branch for function / method body
+max-branchs=30
+
+# Maximum number of statements in function / method body
+max-statements=60
+
+# Maximum number of parents for a class (see R0901).
+max-parents=7
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=20
+
+# Minimum number of public methods for a class (see R0903).
+min-public-methods=0
+
+# Maximum number of public methods for a class (see R0904).
+max-public-methods=20
+
+[TYPECHECK]
+ignored-modules = numpy
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=120
+
+# Maximum number of lines in a module
+max-module-lines=1000
+
+[SIMILARITIES]
+
+# Minimum lines number of a similarity.
+min-similarity-lines=10
+
+# Ignore comments when computing similarities.
+ignore-comments=yes
+
+# Ignore docstrings when computing similarities.
+ignore-docstrings=yes

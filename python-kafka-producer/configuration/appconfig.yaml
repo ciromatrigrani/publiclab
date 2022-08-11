@@ -1,0 +1,23 @@
+kafka_config:
+  broker_node: ""
+  broker_port:
+  pause_interval_ms: 100
+  topics_config:
+    topic_name: "test-coutry-codes"
+    version: "1.0"
+    message_type: "documents-message"
+    stabilization_time: 5
+    producer_config:
+      message_timeout_ms: 30000
+      message_send_max_retries: 2
+log_config:
+  enable: true
+  location: "logs/"
+  verbose: "verbose"
+app_config:
+    server: '0.0.0.0'
+    name: 'country-to-kafka'
+    port: 5007
+    scheduler_config:
+      cron_time: '0 8 * * Mon'
+      cron_time_enabled: true
