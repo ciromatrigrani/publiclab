@@ -56,4 +56,4 @@ http://localhost:7771/?token=eyJhbGciOiJIUzI1NiIs...
  - Make the swagger documentation
  - Improve the style of the React Apps using Bootstrap for example
  - Add logs
-- Add better error threatment
+ - Add better error treatment
