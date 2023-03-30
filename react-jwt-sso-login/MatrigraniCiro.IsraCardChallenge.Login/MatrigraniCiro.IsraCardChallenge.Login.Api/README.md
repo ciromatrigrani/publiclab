@@ -1,25 +1,30 @@
 # Testing the application
 ## Installation
 
-Install the App 
+### React applications
 
-Run the MatrigraniCiro.DotNet6.MinimalApi.IsraCardChallenge.Login/App .csproj on port
-```bash
-https://localhost:7234 
-```
-or change it at: ``launchSettings.json applicationUrl``
+Install the Apps inside the folder ``App/personalinfo_sso_chalenge`` and ``App/login_sso_chalenge/.env``
+Run the aplications using the ``"npm start"`` command
 
 Run the App/personalinfo_sso_chalenge React App on port
 ```bash
 http://localhost:7771
 ```
-or change the por at file: ``App/personalinfo_sso_chalenge/.env``
+or change the port at file: ``App/personalinfo_sso_chalenge/.env``
 
 Run the App/login_sso_chalenge React App any port you want, example
 ```bash
 http://localhost:3000
 ```
 or change the por at file: ``App/login_sso_chalenge/.env``
+
+### Backend
+
+Run the MatrigraniCiro.DotNet6.MinimalApi.IsraCardChallenge.Login/App .csproj on port
+```bash
+https://localhost:7234 
+```
+or change it at: ``launchSettings.json applicationUrl``
 
 ## Usage
 On the login page:
@@ -51,9 +56,23 @@ Example URL with the token:
 http://localhost:7771/?token=eyJhbGciOiJIUzI1NiIs...
 ```
 # What I like to have time to do
- - Make unit tests for the minimal API, Service, and Repository using xUnit
+
+I got this challenge in the Tuesday afternoon and I am delivering it Thiuursday Morning, but if I had more time I'd like to:
+
+## Tests
+ - Include unit tests for the minimal API, Service, and Repository using xUnit
  - Make unit tests for the Apps 
- - Make the swagger documentation
- - Improve the style of the React Apps using Bootstrap for example
- - Add logs
- - Add better error treatment
+ - Make an integration tests with the entire flow, using Selenium
+ - Integrate with SonarCube or similar to bring metrics
+## Documentation
+ - Make the swagger documentation properly in C#
+ - Add logs management
+ - Improve the read-me documentation add more steps to facilitate the deploy
+## ERROR TREATMENT
+ - Add better error treatment maybem include custom exceptions and better error messages
+ - Replace the messages for each Status Code in Swagger and the Apps
+## UX and UI
+- Improve the style of the React Apps using Bootstrap
+- Improve UX and UI of the Apps
+
+ 
