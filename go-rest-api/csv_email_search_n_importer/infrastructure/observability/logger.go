@@ -57,12 +57,5 @@ func SetupLogger(logFilePath string) {
 }
 
 func SetupMetrics(metricsFilePath string) {
-	// file, err := os.OpenFile(logFilePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
-	// if err != nil {
-	// 	log.Fatalf("Failed to open log file: %v", err)
-	// }
 
-	// log.SetOutput(file)
-
-	// log.SetFlags(log.Ldate | log.Ltime | log.Lshortfile)
 }
