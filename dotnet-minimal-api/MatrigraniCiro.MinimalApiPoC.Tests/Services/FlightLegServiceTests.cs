@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
+using System;
 
 namespace MatrigraniCiro.MinimalAPI.PaymentGateway.Tests.Services;
 
@@ -121,8 +122,9 @@ public class FlightLegServiceTests : IClassFixture<TestServicesFixture>
 
         // arrange
         var flightLegId = Guid.NewGuid();
-        var flightLegRes = new FlightLeg() { 
-            Id = flightLegId, 
+        var flightLegRes = new FlightLeg()
+        {
+            Id = flightLegId,
             AircraftRegistry = "AAA-111",
             CompanyId = Guid.NewGuid(),
             Canceled = false,
@@ -264,6 +266,74 @@ public class FlightLegServiceTests : IClassFixture<TestServicesFixture>
 
         // act, assert
         await Assert.ThrowsAsync<BadRequestException>(() => this.flightLegService.PatchFlightLeg(Guid.Empty, patchEntity, default));
+    }
+
+    [Fact]
+    public void Test1()
+    {
+        // arrange
+        int[] ts = { -15, -7, -9, -14, -12 };
+
+        ComputeClosestToZero(ts);
+
+        // Act
+        Assert.Equal(true, true);
+    }
+
+    public static int ComputeClosestToZero(int[] ints)
+    {
+
+        if (ints.Length == 0) return 0;
+        int oldX = Math.Abs(ints[0]);
+        int iResp = 0;
+
+        for (int i = 0; i < ints.Length; i++)
+        {
+            var x = ints[i];
+            x = Math.Abs(x);
+            if (x < oldX) { oldX = x; iResp = i; };
+        }
+
+        var r = ints[iResp];
+
+        return r;
+    }
+
+    [Fact]
+    public void Test2()
+    {
+        // arrange
+        var ts = new List<int> { 1, 5, 8, 1, 2 };
+
+        FindSumPair(ts, 5);
+
+        // Act
+        Assert.Equal(true, true);
+    }
+
+    public static List<int> FindSumPair(List<int> numbers, int k)
+    {
+
+        var i = 1;
+        Console.WriteLine("###############################");
+        Console.WriteLine(i++);
+        Console.WriteLine("###############################");
+
+        var seen = new HashSet<int>();
+
+        foreach (var number in numbers)
+        {
+            int complement = k - number;
+            if (seen.Contains(complement))
+            {
+                return new List<int> { complement, number };
+            }
+            seen.Add(number);
+        }
+
+        // Return an empty list if no pair is found
+        return seen.ToList();
+
     }
 }
 

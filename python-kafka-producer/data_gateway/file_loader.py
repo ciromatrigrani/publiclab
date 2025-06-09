@@ -4,6 +4,9 @@ import pandas as pd
 
 
 class FileLoader:
+    """
+
+    """
     data_path = None
 
     def __init__(self):

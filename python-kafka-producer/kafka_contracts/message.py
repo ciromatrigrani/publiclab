@@ -15,5 +15,6 @@ class Message:
         Guard.argument_not_null_or_empty(version)
         Guard.argument_not_null_or_empty(message_dto)
 
+
         self.version = version
         self.message_schema = message_dto

@@ -12,6 +12,12 @@ using Microsoft.OpenApi.Models;
  * General config
  */
 
+var i = 1;
+Console.WriteLine("###############################");
+Console.WriteLine(i++);
+Console.WriteLine("###############################");
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<FlightMeshBContext>(opt => opt.UseInMemoryDatabase("flight_mesh_db"));
