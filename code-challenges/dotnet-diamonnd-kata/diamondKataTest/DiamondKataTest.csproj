@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\diamond-kata\DiamondKata.csproj" />
+    <ProjectReference Include="..\DiamondKata\DiamondKata.csproj" />
   </ItemGroup>
 
   <ItemGroup>
