@@ -1,8 +1,8 @@
-﻿using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
+﻿using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
 using Swashbuckle.AspNetCore.Filters;
 using System;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.SchemaSamples.Responses
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.SchemaSamples.Responses
 {
     public class ExceedMaxSizeCharactersExceptionSchemaSample : IExamplesProvider<ExceedMaxSizeCharactersException>
     {

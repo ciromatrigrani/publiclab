@@ -1,10 +1,10 @@
 using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Model;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Repository;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Services.Tests;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Model;
+using MatrigraniCiro.HexagonArch.BestBlogs.Repository;
+using MatrigraniCiro.HexagonArch.BestBlogs.Services.Tests;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Moq;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Tests
 {
     public class CommentServiceTests : IClassFixture<TestServicesFixture>
     {
@@ -123,7 +123,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
             var commentRes = new Comment()
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -153,7 +153,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
                 new CommentRequest()
                 {
                     Author = "Ciro Fernandes Matrigrani x2 Ciro Fernandes Matrigrani ",
-                    Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                    Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                     PostId = Guid.NewGuid()
                 },
                 default));
@@ -219,7 +219,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
             var commentRes = new Comment()
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api .",
+                Content = "Base Project - Hexagon Arch Ciro Matrigrani 2025",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -250,7 +250,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
                 new CommentRequest()
                 {
                     Author = "Ciro Fernandes Matrigrani x2 Ciro Fernandes Matrigrani ",
-                    Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                    Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                     PostId = Guid.NewGuid()
                 },
                 default));
@@ -282,7 +282,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
             {
 
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api .",
+                Content = "Base Project - Hexagon Arch Ciro Matrigrani 2025",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -317,7 +317,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
             this.commentRepositoryMock.Setup(r => r.Get(commentId, default)).ReturnsAsync(new Comment
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api .",
+                Content = "Base Project - Hexagon Arch Ciro Matrigrani 2025",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -339,7 +339,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Tests
             this.commentRepositoryMock.Setup(r => r.Get(commentId, default)).ReturnsAsync(new Comment
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api .",
+                Content = "Base Project - Hexagon Arch Ciro Matrigrani 2025",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId

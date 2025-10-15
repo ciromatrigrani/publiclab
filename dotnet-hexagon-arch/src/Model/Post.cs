@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Model
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Model
 {
     public record Post
     {

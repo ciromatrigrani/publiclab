@@ -1,9 +1,9 @@
-﻿using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
+﻿using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
 using System;
 using System.Linq;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services.Helpers
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Services.Helpers
 {
     public class Guard
     {

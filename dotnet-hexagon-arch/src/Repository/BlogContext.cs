@@ -1,7 +1,7 @@
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Model;
+using MatrigraniCiro.HexagonArch.BestBlogs.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Repository
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Repository
 {
     // this is used for our verification tests, don't rename or change the access modifier
     public class BlogContext : DbContext

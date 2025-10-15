@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services.Helpers;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Model;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Repository;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services.Helpers;
+using MatrigraniCiro.HexagonArch.BestBlogs.Model;
+using MatrigraniCiro.HexagonArch.BestBlogs.Repository;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Exceptions;
 using System;
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Services
 {
     public class PostService : IPostService
     {

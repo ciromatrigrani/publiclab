@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Mapping;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Repository;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Mapping;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Repository;
 using Moq;
 using System;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Services.Tests
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Services.Tests
 {
     public class TestServicesFixture : IDisposable
     {

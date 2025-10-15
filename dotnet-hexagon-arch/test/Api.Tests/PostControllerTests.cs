@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Controllers;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Api.Controllers;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.Tests
 {
     public class PostControllerTests : IClassFixture<TestControllersFixture>
     {
@@ -110,7 +110,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var postRes = new PostResponse()
             {
                 Title = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
 
                 Id = postId
@@ -151,7 +151,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var postResquest = new PostRequest
             {
                 Title = "Ciro Fernandes Matrigrani x2 Ciro Fernandes Matrigrani ",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
 
             };
             this.postServiceMock.Setup(r => r.Post(It.IsAny<Guid>(), postResquest, default)).Throws(() => new ExceedMaxSizeCharactersException());
@@ -242,7 +242,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var postRes = new PostResponse()
             {
                 Title = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
 
                 Id = postId
@@ -267,7 +267,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var postRes = new PostResponse()
             {
                 Title = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
 
                 Id = postId
@@ -292,7 +292,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var postResquest = new PostRequest
             {
                 Title = "Ciro Fernandes Matrigrani x2 Ciro Fernandes Matrigrani ",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
 
             };
             this.postServiceMock.Setup(r => r.Put(It.IsAny<Guid>(), postResquest, default)).Throws(() => new ExceedMaxSizeCharactersException());
@@ -370,7 +370,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var postRes = new PostResponse()
             {
                 Title = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api .",
+                Content = "Base Project - Hexagon Arch Ciro Matrigrani 2025",
                 CreationDate = DateTime.Now,
 
                 Id = postId

@@ -1,10 +1,10 @@
-﻿using MatrigraniCiro.MinderaChallenge.BestBlogs.Model;
+﻿using MatrigraniCiro.HexagonArch.BestBlogs.Model;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Repository
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Repository
 {
     public interface IPostRepository
     {

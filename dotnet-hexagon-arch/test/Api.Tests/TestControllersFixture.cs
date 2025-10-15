@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Controllers;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Mapping;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Api.Controllers;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Mapping;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
 using Moq;
 using System;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.Tests
 {
     public class TestControllersFixture : IDisposable
     {

@@ -1,7 +1,7 @@
-﻿using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
+﻿using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.SchemaSamples.Responses
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.SchemaSamples.Responses
 {
     public class ErrorResponseSchemaSample : IExamplesProvider<ErrorResponse>
     {

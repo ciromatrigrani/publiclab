@@ -1,11 +1,11 @@
-﻿using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
+﻿using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
 using Microsoft.AspNetCore.JsonPatch;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Services
 {
     public interface IPostService
     {

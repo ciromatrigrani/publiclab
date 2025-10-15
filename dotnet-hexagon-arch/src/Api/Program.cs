@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api
 {
     public class Program
     {

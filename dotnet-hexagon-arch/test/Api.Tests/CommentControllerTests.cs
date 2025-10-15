@@ -1,8 +1,8 @@
 using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Controllers;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Api.Controllers;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.Tests
 {
     public class CommentControllerTests : IClassFixture<TestControllersFixture>
     {
@@ -108,7 +108,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var commentRes = new CommentResponse()
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -149,7 +149,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var commentResquest = new CommentRequest
             {
                 Author = "Ciro Fernandes Matrigrani x2 Ciro Fernandes Matrigrani ",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 PostId = Guid.NewGuid()
             };
             this.commentServiceMock.Setup(r => r.Post(It.IsAny<Guid>(), commentResquest, default)).Throws(() => new ExceedMaxSizeCharactersException());
@@ -240,7 +240,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var commentRes = new CommentResponse()
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -265,7 +265,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var commentRes = new CommentResponse()
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId
@@ -290,7 +290,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var commentResquest = new CommentRequest
             {
                 Author = "Ciro Fernandes Matrigrani x2 Ciro Fernandes Matrigrani ",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api.",
+                Content = "Base Project Hexagon Arch 2025 - DotNet Rest Api.",
                 PostId = Guid.NewGuid()
             };
             this.commentServiceMock.Setup(r => r.Put(It.IsAny<Guid>(), commentResquest, default)).Throws(() => new ExceedMaxSizeCharactersException());
@@ -368,7 +368,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Tests
             var commentRes = new CommentResponse()
             {
                 Author = "Ciro Matrigrani",
-                Content = "Mindera Challenge 2022 - DotNet 5 Rest Api .",
+                Content = "Base Project - Hexagon Arch Ciro Matrigrani 2025",
                 CreationDate = DateTime.Now,
                 PostId = Guid.NewGuid(),
                 Id = commentId

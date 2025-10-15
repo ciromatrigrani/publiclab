@@ -1,6 +1,6 @@
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Mapping;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Repository;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Mapping;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +13,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api
 {
     public class Startup
     {
@@ -39,7 +39,7 @@ namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Ciro Matrigrani Mindera Challenge BlogPosts",
+                    Title = "Ciro Matrigrani Hexagon Arch PoC BlogPosts",
                     Description = "DotNet Core Rest API for BlogPosts and Comments",
                     Contact = new OpenApiContact
                     {

@@ -1,10 +1,10 @@
-﻿using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
+﻿using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Swashbuckle.AspNetCore.Filters;
 
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.SchemaSamples.Responses
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.SchemaSamples.Responses
 {
     public class JsonPatchDocumentPostRequestSchemaSample : IExamplesProvider<JsonPatchDocument<PostRequest>>
     {

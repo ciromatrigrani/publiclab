@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Model;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Model;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Mapping
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Mapping
 {
     public class Mapping : Profile
     {

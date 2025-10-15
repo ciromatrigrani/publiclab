@@ -1,4 +1,4 @@
-﻿namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto
+﻿namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto
 {
     public class ErrorResponse
     {

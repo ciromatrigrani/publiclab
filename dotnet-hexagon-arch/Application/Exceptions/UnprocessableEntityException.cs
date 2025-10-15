@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions
 {
     public class UnprocessableEntityException : Exception
     {

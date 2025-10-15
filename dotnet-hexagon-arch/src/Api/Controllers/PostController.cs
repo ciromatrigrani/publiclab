@@ -1,6 +1,6 @@
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Dto;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Exceptions;
-using MatrigraniCiro.MinderaChallenge.BestBlogs.Application.Services;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Dto;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Exceptions;
+using MatrigraniCiro.HexagonArch.BestBlogs.Application.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +11,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MatrigraniCiro.MinderaChallenge.BestBlogs.Api.Controllers
+namespace MatrigraniCiro.HexagonArch.BestBlogs.Api.Controllers
 {
     [ApiController]
     [Route("posts")]
