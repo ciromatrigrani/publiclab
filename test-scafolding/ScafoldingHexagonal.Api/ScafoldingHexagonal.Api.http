@@ -1,0 +1,6 @@
+@ScafoldingHexagonal.Api_HostAddress = http://localhost:5023
+
+GET {{ScafoldingHexagonal.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
